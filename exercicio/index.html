@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+</head>
+<body>
+    <h1>Bem-vinda ao meu site</h1>
+    <div>
+        <label for="lista-compras">Calculadora</label>
+        <p>Digites os números que deseja somar ou multiplicar, então selecione a opção clicando no botão</p>
+        <input type="number" id="primeiro-numero" />
+        <input type="number" id="segundo-numero" />
+        <button onclick="somar()">Somar</button>
+        <button onclick="multiplicar()">Multiplicar</button>
+    </div>
+    <p></p>
+    <div>
+    <label for="lista-compras">Lista de Compras:</label>
+    <p></p>
+    <input type="text" id="item-novo" />
+    <button onclick="adicionarItem()">Adicionar item</button>
+    <p></p>
+    <span id="lista-completa"></span>
+    <p></p>
+    <button onclick="removerItem()">Remover último item da lista</button>
+    <button onclick="removerPorNome()">Remover item específico</button>
+    <script src="exercicio-rafaela.js"></script>  
+    </div>  
+</body>
+</html>
