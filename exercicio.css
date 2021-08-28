@@ -1,0 +1,15 @@
+    imagem {
+        width: 3000px;
+        height: 300px;
+        background: url("exercicio.html/img/img2.jpg");
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+    }
+    
+    #texto {
+        position: absolute;
+        z-index: 100;
+    }
