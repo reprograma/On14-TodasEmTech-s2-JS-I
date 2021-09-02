@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>atividadefarmaciajs</title>
+    <h1>Cadastro de compra na PROMOÇÃO FARMACIA JS</h1>
+    <h7>A cada dois produtos iguais ganhe R$ 5,00 de desconto </h7>
+    <h1> Sugestão de codigos para teste</h1>
+    <h3> Analgesico - 00345</h3>
+    <h3> Dipiroma - 00456</h4>
+    <h3> Sabonete - 02456</h5>
+    <h3> Pasta de dente - 02458</h6>
+    <!-- <form id="formulario" onsubmit="inserirProduto()"> -->
+    <input
+      type="number"
+      id="codigoDoProduto"
+      placeholder=" Digite o codigo do produto:"
+    />
+    <button id="armazenaValor" onclick="inserirProduto()">
+      Inserir código do produto
+    </button>
+    <!-- </form> -->
+    <button id="desconto" onclick="calcularDesconto()">
+      Finalizar cadastro
+    </button>
+    <br />
+    <br />
+    <span id="resultado">R$ 0</span>
+    <small>  ,00 de desconto </small>
+  </head>
+  <body>
+    <!-- <script></script> -->
+
+    <script src="exercicioFarmacia.js"></script>
+  </body>
+</html>
